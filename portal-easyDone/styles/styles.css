@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #2b2b2b; 
+}
+
+body {
+    background-color: #1e1e1e;
+}
+
+.landing-1 {
+    /* background-color: #181818; */
+    height: 80vh;
+    justify-content: start;
+    display: flex;
+    align-items: center;
+    color: rgb(237, 237, 237);
+}
+
+#btn-login, #btn-signup, #btn-update, #btn-new-task{
+    background-color: green;
+    font-weight: bold;
+    border: none;
+}
+
+#btn-new-task {
+    margin-right: 15px;
+    font-weight: normal;
+    
+}
+
+
+#btn-cancel {
+    background-color: rgb(129, 129, 129);
+    font-weight: bold;
+    border: none;
+}
+
+.btn-space {
+    margin-right: 5px;
+}
+
+.tasks-grid {
+    padding-top: 20px;
+}
+
+.form-group {
+    padding-bottom: 15px;
+}
+
+label {
+    padding-bottom: 2px;
+}
+
+
+
+
+#footer {   
+    padding-top: 15px;
+    background-color: #2b2b2b;
+    padding-bottom: 15px;
+}
+
