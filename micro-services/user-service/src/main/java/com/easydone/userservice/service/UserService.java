@@ -1,6 +1,6 @@
 package com.easydone.userservice.service;
 
-import com.easydone.userservice.VO.ResponseTemplate;
+import VO.ResponseTemplate;
 import com.easydone.userservice.entity.User;
 import com.easydone.userservice.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -98,6 +98,7 @@ public class UserService {
                 responseTemplate.setUserId(_user.getUserId());
                 responseTemplate.setUsername(_user.getFirstName());
                 responseTemplate.setIsValid(true);
+                responseTemplate.setPhoneno(_user.getPhone());
                 return responseTemplate;
             }
         }

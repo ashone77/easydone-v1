@@ -37,6 +37,11 @@
       .then((res) => {
         console.log(res);
         console.log("Signup Successful.")
+        
+        if(true){
+          alert("Signup Successful");
+          window.location.assign("index.html");
+        }
       })
       .catch((err) => {console.error(err)})
     }

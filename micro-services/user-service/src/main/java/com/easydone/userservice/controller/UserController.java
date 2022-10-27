@@ -1,10 +1,9 @@
 package com.easydone.userservice.controller;
 
-import com.easydone.userservice.VO.ResponseTemplate;
+import VO.ResponseTemplate;
 import com.easydone.userservice.entity.User;
 import com.easydone.userservice.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

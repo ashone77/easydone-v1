@@ -1,4 +1,4 @@
-package com.easydone.userservice.VO;
+package VO;
 
 import com.easydone.userservice.entity.User;
 import lombok.AllArgsConstructor;
@@ -12,5 +12,6 @@ public class ResponseTemplate {
     private String username;
     private Long userId;
     private Boolean isValid;
+    private String phoneno;
 
 }

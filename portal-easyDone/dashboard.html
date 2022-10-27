@@ -22,6 +22,7 @@
     var tPayment = document.getElementById("payment").value;
     var tDateTime = document.getElementById("date-time").value;
     var uID = localStorage.getItem("userId");
+    var uPhone = localStorage.getItem("userPhone");
 
     await axios.post (
       url, {
@@ -30,7 +31,8 @@
         taskLocation : tLocation,
         taskTime : tDateTime,
         payment : tPayment,
-        userId : uID
+        userId : uID,
+        userContact : uPhone 
       }
     ).then((res) => {
         console.log(res);
@@ -137,7 +139,7 @@
     </div>
   </div>
 
-  <section class="tasks-grid">
+  <section class="tasks-grid" style="height: 80vh">
     <div class="container">
       <div id="task-grid" class="row row-cols-1 row-cols-md-3 g-4">
 

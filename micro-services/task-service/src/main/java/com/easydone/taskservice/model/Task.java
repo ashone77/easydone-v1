@@ -36,5 +36,8 @@ public class Task {
     private Long payment;
     @Column(nullable = false)
     private Long userId;
+    @Column(nullable = false)
+    private String userContact;
+
 
 }

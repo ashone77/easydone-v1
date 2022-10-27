@@ -1,6 +1,6 @@
 package com.easydone.taskservice.controller;
 
-import VO.ResponseTemplate;
+import com.easydone.taskservice.VO.ResponseTemplate;
 import com.easydone.taskservice.model.Task;
 import com.easydone.taskservice.service.TaskService;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -16,8 +16,12 @@ async function renderUsers() {
         <div class="card text-white bg-dark mb-3">
           <div class="card-body">
             <h5 class="card-title">${user.taskTitle}</h5>
-            <p class="card-text">${user.taskLocation} <br>
-            ${user.taskDescr}
+            <p class="card-text">Location :${user.taskLocation} <br>
+
+            Description : ${user.taskDescr} <br>
+            Time : ${user.taskTime} <br>
+            Payment : ${user.payment} <br>
+            Contact : ${user.userContact}
             </p>
           </div>
         </div>

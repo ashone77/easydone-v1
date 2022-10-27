@@ -34,6 +34,7 @@
 
         localStorage.setItem("username", res.data.username);
         localStorage.setItem("userId", res.data.userId);
+        localStorage.setItem("userPhone",res.data.phoneno);
         console.log(localStorage.getItem("username"));
 
         if (res.data.isValid == true) {
@@ -120,8 +121,7 @@
     </div>
   </section>
 
-  <button id="btn-new-task" type="submit" class="btn btn-primary btn-md rounded-pill" data-bs-toggle="modal"
-                data-bs-target="#exampleModal">Modal</button>
+  
 
   <!-- modal -->
   <div class="container">

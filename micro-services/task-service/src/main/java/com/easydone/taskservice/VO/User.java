@@ -1,4 +1,4 @@
-package VO;
+package com.easydone.taskservice.VO;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
